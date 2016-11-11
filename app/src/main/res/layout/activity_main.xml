@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_900"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/md_amber_50">
+
+        <com.ivo.funnycircleprogress.FunnyCircleProgress
+            android:id="@+id/funny1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.ivo.funnycircleprogress.FunnyCircleProgress
+            android:id="@+id/funny2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+</LinearLayout>
